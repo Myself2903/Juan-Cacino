@@ -1,0 +1,52 @@
+*{
+    background-color: #25ac72;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#main_game{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#roulette_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#result{
+    color: white;
+    font-size: xx-large;
+}
+
+#selector{
+    position: relative;
+    background-color: transparent;
+    width: 3em;
+    height: 3em;
+    top: 3em;
+    z-index: 2;
+}
+
+#wheel{
+    width: 30em;
+    height: 30em;
+}
+
+#spin_button{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 20em;
+    height: 2em;
+    padding: 2px;
+    z-index: 2;
+}
+
+#spin_button:hover{
+    cursor: pointer;
+}
